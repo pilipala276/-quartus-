@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.840 ns
+From           : 74161:inst12|f74161:sub|9
+To             : r
+From Clock     : cp
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.784 ns
+From           : A
+To             : Y_OR
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cp'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 251.45 MHz ( period = 3.977 ns )
+From           : 74161:inst12|f74161:sub|9
+To             : 74161:inst12|f74161:sub|110
+From Clock     : cp
+To Clock       : cp
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CP_'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 304.04 MHz ( period = 3.289 ns )
+From           : 74160:inst1|7
+To             : 74160:inst1|9
+From Clock     : CP_
+To Clock       : CP_
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

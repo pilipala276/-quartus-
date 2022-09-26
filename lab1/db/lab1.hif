@@ -1,0 +1,153 @@
+Quartus II
+Version 9.1 Build 222 10/21/2009 SJ Full Version
+45
+3166
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+lab1
+# storage
+db|lab1.(0).cnf
+db|lab1.(0).cnf
+# case_insensitive
+# source_file
+lab1.bdf
+e6eecdd434249d6498471e9569b60a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+74161
+# storage
+db|lab1.(1).cnf
+db|lab1.(1).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|others|maxplus2|74161.tdf
+2ed0a3ddd766ade752e5112f973aaea
+7
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+RCO
+-1
+3
+QD
+-1
+3
+QC
+-1
+3
+QB
+-1
+3
+QA
+-1
+3
+CLK
+-1
+3
+LDN
+-1
+2
+ENT
+-1
+2
+ENP
+-1
+2
+CLRN
+-1
+2
+}
+# hierarchies {
+74161:inst12
+}
+# macro_sequence
+
+# end
+# entity
+f74161
+# storage
+db|lab1.(2).cnf
+db|lab1.(2).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|others|maxplus2|f74161.bdf
+7336e83179d5c5b17228174483d7f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74161:inst12|f74161:sub
+}
+# macro_sequence
+
+# end
+# entity
+74160
+# storage
+db|lab1.(3).cnf
+db|lab1.(3).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|others|maxplus2|74160.bdf
+dbb38ebd58de127a9388bea4bb226048
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74160:inst1
+}
+# macro_sequence
+
+# end
+# complete
+
