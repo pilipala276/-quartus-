@@ -1,0 +1,278 @@
+Quartus II 64-Bit
+Version 9.1 Build 222 10/21/2009 SJ Full Version
+45
+3166
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+7428
+# storage
+db|lab2.(1).cnf
+db|lab2.(1).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|others|maxplus2|7428.bdf
+730881e95af46ba524a634e0eaff4e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+74283
+# storage
+db|lab2.(2).cnf
+db|lab2.(2).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|others|maxplus2|74283.tdf
+a937078c0865ce0d82244397bd88a2c
+7
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SUM4
+-1
+3
+SUM3
+-1
+3
+SUM2
+-1
+3
+SUM1
+-1
+3
+CIN
+-1
+3
+A4
+-1
+3
+A3
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+B4
+-1
+1
+B3
+-1
+1
+B2
+-1
+2
+B1
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+f74283
+# storage
+db|lab2.(3).cnf
+db|lab2.(3).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|others|maxplus2|f74283.bdf
+e7196949c2eee906273cd5c3cb3c346
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74283:inst12|f74283:sub
+74283:inst29|f74283:sub
+}
+# macro_sequence
+
+# end
+# entity
+74283
+# storage
+db|lab2.(4).cnf
+db|lab2.(4).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|others|maxplus2|74283.tdf
+a937078c0865ce0d82244397bd88a2c
+7
+# user_parameter {
+DEVICE_FAMILY
+MAX II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SUM4
+-1
+3
+SUM3
+-1
+3
+SUM2
+-1
+3
+SUM1
+-1
+3
+A4
+-1
+3
+A3
+-1
+3
+A2
+-1
+3
+A1
+-1
+3
+CIN
+-1
+1
+B4
+-1
+1
+B3
+-1
+1
+B2
+-1
+2
+B1
+-1
+2
+}
+# hierarchies {
+74283:inst12
+74283:inst29
+}
+# macro_sequence
+
+# end
+# entity
+74183
+# storage
+db|lab2.(5).cnf
+db|lab2.(5).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|others|maxplus2|74183.bdf
+624ccb30b3e064b63455b261d5bb44c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74183:inst
+74183:inst13
+}
+# macro_sequence
+
+# end
+# entity
+lab2
+# storage
+db|lab2.(0).cnf
+db|lab2.(0).cnf
+# case_insensitive
+# source_file
+lab2.bdf
+864a37f46110abb7af45e108bea1363
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+74160
+# storage
+db|lab2.(6).cnf
+db|lab2.(6).cnf
+# case_insensitive
+# source_file
+|quartus|quartus|libraries|others|maxplus2|74160.bdf
+dbb38ebd58de127a9388bea4bb226048
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74160:inst30
+}
+# macro_sequence
+
+# end
+# complete
+

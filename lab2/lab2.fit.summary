@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri Oct 07 16:15:46 2022
+Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : lab2
+Top-level Entity Name : lab2
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 15 / 240 ( 6 % )
+Total pins : 25 / 80 ( 31 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

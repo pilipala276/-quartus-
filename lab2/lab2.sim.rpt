@@ -1,0 +1,327 @@
+Simulator report for lab2
+Fri Oct 07 16:17:12 2022
+Quartus II 64-Bit Version 9.1 Build 222 10/21/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Simulation Signal Activity
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 74 nodes     ;
+; Simulation Coverage         ;      98.65 % ;
+; Total Number of Transitions ; 1178         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; MAX II       ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; On         ; Off           ;
+; Signal Activity File output destination                                                    ; lab2.saf   ;               ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
+Start time : 0 ps
+End time : 1.0 us
+Time duration : 1.0 us
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Signal Activity                                                                                                                                  ;
++------------------------------------+------------------------------------+------------------+--------------+--------------------+----------------------------+
+; Node Name                          ; Output Port Name                   ; Output Port Type ; Toggle Count ; VCC Value Duration ; X (Unknown) Value Duration ;
++------------------------------------+------------------------------------+------------------+--------------+--------------------+----------------------------+
+; |lab2|Y0                           ; |lab2|Y0                           ; pin_out          ;       10.0   ; 950.0 ns           ; 0 ps                       ;
+; |lab2|D0                           ; |lab2|D0                           ; out              ;       10.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|D1                           ; |lab2|D1                           ; out              ;        4.0   ; 40.0 ns            ; 0 ps                       ;
+; |lab2|D2                           ; |lab2|D2                           ; out              ;        2.0   ; 40.0 ns            ; 0 ps                       ;
+; |lab2|D3                           ; |lab2|D3                           ; out              ;        2.0   ; 20.0 ns            ; 0 ps                       ;
+; |lab2|Y1                           ; |lab2|Y1                           ; pin_out          ;        6.0   ; 950.0 ns           ; 0 ps                       ;
+; |lab2|Y2                           ; |lab2|Y2                           ; pin_out          ;        4.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|Y3                           ; |lab2|Y3                           ; pin_out          ;        2.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|Y4                           ; |lab2|Y4                           ; pin_out          ;       10.0   ; 950.0 ns           ; 0 ps                       ;
+; |lab2|Y5                           ; |lab2|Y5                           ; pin_out          ;        6.0   ; 950.0 ns           ; 0 ps                       ;
+; |lab2|Y6                           ; |lab2|Y6                           ; pin_out          ;        4.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|Y7                           ; |lab2|Y7                           ; pin_out          ;        2.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|Y8                           ; |lab2|Y8                           ; pin_out          ;       10.0   ; 950.0 ns           ; 0 ps                       ;
+; |lab2|Y9                           ; |lab2|Y9                           ; pin_out          ;        6.0   ; 950.0 ns           ; 0 ps                       ;
+; |lab2|inst17                       ; |lab2|inst17                       ; out0             ;        6.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|Y10                          ; |lab2|Y10                          ; pin_out          ;        4.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|inst24                       ; |lab2|inst24                       ; out0             ;        4.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|inst21                       ; |lab2|inst21                       ; out0             ;        2.0   ; 10.0 ns            ; 0 ps                       ;
+; |lab2|inst23                       ; |lab2|inst23                       ; out0             ;        2.0   ; 10.0 ns            ; 0 ps                       ;
+; |lab2|inst22                       ; |lab2|inst22                       ; out0             ;        6.0   ; 30.0 ns            ; 0 ps                       ;
+; |lab2|Y11                          ; |lab2|Y11                          ; pin_out          ;        2.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|inst27                       ; |lab2|inst27                       ; out0             ;        2.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|inst25                       ; |lab2|inst25                       ; out0             ;        4.0   ; 20.0 ns            ; 0 ps                       ;
+; |lab2|inst26                       ; |lab2|inst26                       ; out0             ;        2.0   ; 10.0 ns            ; 0 ps                       ;
+; |lab2|Y12                          ; |lab2|Y12                          ; pin_out          ;       49.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|CLK                          ; |lab2|CLK                          ; out              ;       99.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|Y13                          ; |lab2|Y13                          ; pin_out          ;       29.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|Y14                          ; |lab2|Y14                          ; pin_out          ;       19.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|Y15                          ; |lab2|Y15                          ; pin_out          ;        9.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|D4                           ; |lab2|D4                           ; pin_out          ;       49.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|D5                           ; |lab2|D5                           ; pin_out          ;       20.0   ; 400.0 ns           ; 0 ps                       ;
+; |lab2|D6                           ; |lab2|D6                           ; pin_out          ;       10.0   ; 400.0 ns           ; 0 ps                       ;
+; |lab2|D7                           ; |lab2|D7                           ; pin_out          ;        9.0   ; 200.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|6               ; |lab2|74160:inst30|6               ; regout           ;       49.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|9               ; |lab2|74160:inst30|9               ; regout           ;        9.0   ; 200.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|13              ; |lab2|74160:inst30|13              ; out0             ;       10.0   ; 200.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|49              ; |lab2|74160:inst30|49              ; out0             ;       10.0   ; 100.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|46              ; |lab2|74160:inst30|46              ; out0             ;       10.0   ; 100.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|8               ; |lab2|74160:inst30|8               ; regout           ;       10.0   ; 400.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|12              ; |lab2|74160:inst30|12              ; out0             ;       10.0   ; 400.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|28              ; |lab2|74160:inst30|28              ; out0             ;       20.0   ; 200.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|7               ; |lab2|74160:inst30|7               ; regout           ;       20.0   ; 400.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|11              ; |lab2|74160:inst30|11              ; out0             ;       20.0   ; 400.0 ns           ; 0 ps                       ;
+; |lab2|74160:inst30|50              ; |lab2|74160:inst30|50              ; out0             ;       40.0   ; 400.0 ns           ; 0 ps                       ;
+; |lab2|74283:inst29|f74283:sub|98   ; |lab2|74283:inst29|f74283:sub|98   ; out0             ;       10.0   ; 300.0 ns           ; 0 ps                       ;
+; |lab2|74283:inst29|f74283:sub|105  ; |lab2|74283:inst29|f74283:sub|105  ; out0             ;       29.0   ; 700.0 ns           ; 0 ps                       ;
+; |lab2|74283:inst29|f74283:sub|95   ; |lab2|74283:inst29|f74283:sub|95   ; out0             ;       20.0   ; 200.0 ns           ; 0 ps                       ;
+; |lab2|74283:inst29|f74283:sub|88   ; |lab2|74283:inst29|f74283:sub|88   ; out0             ;       49.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|74283:inst29|f74283:sub|83   ; |lab2|74283:inst29|f74283:sub|83   ; out0             ;        9.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|74283:inst29|f74283:sub|81   ; |lab2|74283:inst29|f74283:sub|81   ; out0             ;       19.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|74283:inst29|f74283:sub|79   ; |lab2|74283:inst29|f74283:sub|79   ; out0             ;       29.0   ; 500.0 ns           ; 0 ps                       ;
+; |lab2|74183:inst13|8               ; |lab2|74183:inst13|8               ; out0             ;        2.0   ; 970.0 ns           ; 0 ps                       ;
+; |lab2|74183:inst13|13              ; |lab2|74183:inst13|13              ; out0             ;        4.0   ; 920.0 ns           ; 0 ps                       ;
+; |lab2|74183:inst13|7               ; |lab2|74183:inst13|7               ; out0             ;        4.0   ; 950.0 ns           ; 0 ps                       ;
+; |lab2|74183:inst13|12              ; |lab2|74183:inst13|12              ; out0             ;        2.0   ; 30.0 ns            ; 0 ps                       ;
+; |lab2|74183:inst13|10              ; |lab2|74183:inst13|10              ; out0             ;        4.0   ; 920.0 ns           ; 0 ps                       ;
+; |lab2|74183:inst13|27              ; |lab2|74183:inst13|27              ; out0             ;        2.0   ; 950.0 ns           ; 0 ps                       ;
+; |lab2|74183:inst13|31              ; |lab2|74183:inst13|31              ; out0             ;        0.0   ; 0 ps               ; 0 ps                       ;
+; |lab2|74183:inst13|29              ; |lab2|74183:inst13|29              ; out0             ;        2.0   ; 950.0 ns           ; 0 ps                       ;
+; |lab2|74183:inst|32                ; |lab2|74183:inst|32                ; out0             ;        6.0   ; 930.0 ns           ; 0 ps                       ;
+; |lab2|74183:inst|27                ; |lab2|74183:inst|27                ; out0             ;        6.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|74183:inst|30                ; |lab2|74183:inst|30                ; out0             ;        4.0   ; 20.0 ns            ; 0 ps                       ;
+; |lab2|74183:inst|28                ; |lab2|74183:inst|28                ; out0             ;        6.0   ; 30.0 ns            ; 0 ps                       ;
+; |lab2|74283:inst12|f74283:sub|98   ; |lab2|74283:inst12|f74283:sub|98   ; out0             ;        2.0   ; 30.0 ns            ; 0 ps                       ;
+; |lab2|74283:inst12|f74283:sub|105  ; |lab2|74283:inst12|f74283:sub|105  ; out0             ;        6.0   ; 70.0 ns            ; 0 ps                       ;
+; |lab2|74283:inst12|f74283:sub|95   ; |lab2|74283:inst12|f74283:sub|95   ; out0             ;        4.0   ; 20.0 ns            ; 0 ps                       ;
+; |lab2|74283:inst12|f74283:sub|88   ; |lab2|74283:inst12|f74283:sub|88   ; out0             ;       10.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|74283:inst12|f74283:sub|83   ; |lab2|74283:inst12|f74283:sub|83   ; out0             ;        2.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|74283:inst12|f74283:sub|81   ; |lab2|74283:inst12|f74283:sub|81   ; out0             ;        4.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|74283:inst12|f74283:sub|79   ; |lab2|74283:inst12|f74283:sub|79   ; out0             ;        6.0   ; 50.0 ns            ; 0 ps                       ;
+; |lab2|74283:inst29|f74283:sub|98~1 ; |lab2|74283:inst29|f74283:sub|98~1 ; out0             ;       10.0   ; 400.0 ns           ; 0 ps                       ;
+; |lab2|74283:inst29|f74283:sub|95~1 ; |lab2|74283:inst29|f74283:sub|95~1 ; out0             ;       20.0   ; 400.0 ns           ; 0 ps                       ;
+; |lab2|74283:inst12|f74283:sub|98~1 ; |lab2|74283:inst12|f74283:sub|98~1 ; out0             ;        2.0   ; 40.0 ns            ; 0 ps                       ;
+; |lab2|74283:inst12|f74283:sub|95~1 ; |lab2|74283:inst12|f74283:sub|95~1 ; out0             ;        4.0   ; 40.0 ns            ; 0 ps                       ;
++------------------------------------+------------------------------------+------------------+--------------+--------------------+----------------------------+
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      98.65 % ;
+; Total nodes checked                                 ; 74           ;
+; Total output ports checked                          ; 74           ;
+; Total output ports with complete 1/0-value coverage ; 73           ;
+; Total output ports with no 1/0-value coverage       ; 1            ;
+; Total output ports with no 1-value coverage         ; 1            ;
+; Total output ports with no 0-value coverage         ; 1            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                ;
++------------------------------------+------------------------------------+------------------+
+; Node Name                          ; Output Port Name                   ; Output Port Type ;
++------------------------------------+------------------------------------+------------------+
+; |lab2|Y0                           ; |lab2|Y0                           ; pin_out          ;
+; |lab2|D0                           ; |lab2|D0                           ; out              ;
+; |lab2|D1                           ; |lab2|D1                           ; out              ;
+; |lab2|D2                           ; |lab2|D2                           ; out              ;
+; |lab2|D3                           ; |lab2|D3                           ; out              ;
+; |lab2|Y1                           ; |lab2|Y1                           ; pin_out          ;
+; |lab2|Y2                           ; |lab2|Y2                           ; pin_out          ;
+; |lab2|Y3                           ; |lab2|Y3                           ; pin_out          ;
+; |lab2|Y4                           ; |lab2|Y4                           ; pin_out          ;
+; |lab2|Y5                           ; |lab2|Y5                           ; pin_out          ;
+; |lab2|Y6                           ; |lab2|Y6                           ; pin_out          ;
+; |lab2|Y7                           ; |lab2|Y7                           ; pin_out          ;
+; |lab2|Y8                           ; |lab2|Y8                           ; pin_out          ;
+; |lab2|Y9                           ; |lab2|Y9                           ; pin_out          ;
+; |lab2|inst17                       ; |lab2|inst17                       ; out0             ;
+; |lab2|Y10                          ; |lab2|Y10                          ; pin_out          ;
+; |lab2|inst24                       ; |lab2|inst24                       ; out0             ;
+; |lab2|inst21                       ; |lab2|inst21                       ; out0             ;
+; |lab2|inst23                       ; |lab2|inst23                       ; out0             ;
+; |lab2|inst22                       ; |lab2|inst22                       ; out0             ;
+; |lab2|Y11                          ; |lab2|Y11                          ; pin_out          ;
+; |lab2|inst27                       ; |lab2|inst27                       ; out0             ;
+; |lab2|inst25                       ; |lab2|inst25                       ; out0             ;
+; |lab2|inst26                       ; |lab2|inst26                       ; out0             ;
+; |lab2|Y12                          ; |lab2|Y12                          ; pin_out          ;
+; |lab2|CLK                          ; |lab2|CLK                          ; out              ;
+; |lab2|Y13                          ; |lab2|Y13                          ; pin_out          ;
+; |lab2|Y14                          ; |lab2|Y14                          ; pin_out          ;
+; |lab2|Y15                          ; |lab2|Y15                          ; pin_out          ;
+; |lab2|D4                           ; |lab2|D4                           ; pin_out          ;
+; |lab2|D5                           ; |lab2|D5                           ; pin_out          ;
+; |lab2|D6                           ; |lab2|D6                           ; pin_out          ;
+; |lab2|D7                           ; |lab2|D7                           ; pin_out          ;
+; |lab2|74160:inst30|6               ; |lab2|74160:inst30|6               ; regout           ;
+; |lab2|74160:inst30|9               ; |lab2|74160:inst30|9               ; regout           ;
+; |lab2|74160:inst30|13              ; |lab2|74160:inst30|13              ; out0             ;
+; |lab2|74160:inst30|49              ; |lab2|74160:inst30|49              ; out0             ;
+; |lab2|74160:inst30|46              ; |lab2|74160:inst30|46              ; out0             ;
+; |lab2|74160:inst30|8               ; |lab2|74160:inst30|8               ; regout           ;
+; |lab2|74160:inst30|12              ; |lab2|74160:inst30|12              ; out0             ;
+; |lab2|74160:inst30|28              ; |lab2|74160:inst30|28              ; out0             ;
+; |lab2|74160:inst30|7               ; |lab2|74160:inst30|7               ; regout           ;
+; |lab2|74160:inst30|11              ; |lab2|74160:inst30|11              ; out0             ;
+; |lab2|74160:inst30|50              ; |lab2|74160:inst30|50              ; out0             ;
+; |lab2|74283:inst29|f74283:sub|98   ; |lab2|74283:inst29|f74283:sub|98   ; out0             ;
+; |lab2|74283:inst29|f74283:sub|105  ; |lab2|74283:inst29|f74283:sub|105  ; out0             ;
+; |lab2|74283:inst29|f74283:sub|95   ; |lab2|74283:inst29|f74283:sub|95   ; out0             ;
+; |lab2|74283:inst29|f74283:sub|88   ; |lab2|74283:inst29|f74283:sub|88   ; out0             ;
+; |lab2|74283:inst29|f74283:sub|83   ; |lab2|74283:inst29|f74283:sub|83   ; out0             ;
+; |lab2|74283:inst29|f74283:sub|81   ; |lab2|74283:inst29|f74283:sub|81   ; out0             ;
+; |lab2|74283:inst29|f74283:sub|79   ; |lab2|74283:inst29|f74283:sub|79   ; out0             ;
+; |lab2|74183:inst13|8               ; |lab2|74183:inst13|8               ; out0             ;
+; |lab2|74183:inst13|13              ; |lab2|74183:inst13|13              ; out0             ;
+; |lab2|74183:inst13|7               ; |lab2|74183:inst13|7               ; out0             ;
+; |lab2|74183:inst13|12              ; |lab2|74183:inst13|12              ; out0             ;
+; |lab2|74183:inst13|10              ; |lab2|74183:inst13|10              ; out0             ;
+; |lab2|74183:inst13|27              ; |lab2|74183:inst13|27              ; out0             ;
+; |lab2|74183:inst13|29              ; |lab2|74183:inst13|29              ; out0             ;
+; |lab2|74183:inst|32                ; |lab2|74183:inst|32                ; out0             ;
+; |lab2|74183:inst|27                ; |lab2|74183:inst|27                ; out0             ;
+; |lab2|74183:inst|30                ; |lab2|74183:inst|30                ; out0             ;
+; |lab2|74183:inst|28                ; |lab2|74183:inst|28                ; out0             ;
+; |lab2|74283:inst12|f74283:sub|98   ; |lab2|74283:inst12|f74283:sub|98   ; out0             ;
+; |lab2|74283:inst12|f74283:sub|105  ; |lab2|74283:inst12|f74283:sub|105  ; out0             ;
+; |lab2|74283:inst12|f74283:sub|95   ; |lab2|74283:inst12|f74283:sub|95   ; out0             ;
+; |lab2|74283:inst12|f74283:sub|88   ; |lab2|74283:inst12|f74283:sub|88   ; out0             ;
+; |lab2|74283:inst12|f74283:sub|83   ; |lab2|74283:inst12|f74283:sub|83   ; out0             ;
+; |lab2|74283:inst12|f74283:sub|81   ; |lab2|74283:inst12|f74283:sub|81   ; out0             ;
+; |lab2|74283:inst12|f74283:sub|79   ; |lab2|74283:inst12|f74283:sub|79   ; out0             ;
+; |lab2|74283:inst29|f74283:sub|98~1 ; |lab2|74283:inst29|f74283:sub|98~1 ; out0             ;
+; |lab2|74283:inst29|f74283:sub|95~1 ; |lab2|74283:inst29|f74283:sub|95~1 ; out0             ;
+; |lab2|74283:inst12|f74283:sub|98~1 ; |lab2|74283:inst12|f74283:sub|98~1 ; out0             ;
+; |lab2|74283:inst12|f74283:sub|95~1 ; |lab2|74283:inst12|f74283:sub|95~1 ; out0             ;
++------------------------------------+------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------+
+; Missing 1-Value Coverage                                         ;
++-----------------------+-----------------------+------------------+
+; Node Name             ; Output Port Name      ; Output Port Type ;
++-----------------------+-----------------------+------------------+
+; |lab2|74183:inst13|31 ; |lab2|74183:inst13|31 ; out0             ;
++-----------------------+-----------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------+
+; Missing 0-Value Coverage                                         ;
++-----------------------+-----------------------+------------------+
+; Node Name             ; Output Port Name      ; Output Port Type ;
++-----------------------+-----------------------+------------------+
+; |lab2|74183:inst13|31 ; |lab2|74183:inst13|31 ; out0             ;
++-----------------------+-----------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
+    Info: Processing started: Fri Oct 07 16:17:12 2022
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off lab2 -c lab2
+Info: Using vector source file "D:/Quartus/Quartus II 9.1/LAB/lab2/lab2.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of lab2.vwf called lab2.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Created Signal Activity File D:/Quartus/Quartus II 9.1/LAB/lab2/lab2.saf
+Info: Simulation coverage is      98.65 %
+Info: Number of transitions in simulation is 1178
+Info: Vector file lab2.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4309 megabytes
+    Info: Processing ended: Fri Oct 07 16:17:12 2022
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
